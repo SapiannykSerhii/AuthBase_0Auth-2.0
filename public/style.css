@@ -152,6 +152,27 @@ button {
   box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);
 }
 
+.avatar {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+
+.logoutBtn {
+  display: block;
+  width: 250px;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0.2em auto;
+  text-align: center;
+  line-height: 34px;
+  font-size: 15px;
+  text-transform: none;
+  cursor: pointer; 
+}
+
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
